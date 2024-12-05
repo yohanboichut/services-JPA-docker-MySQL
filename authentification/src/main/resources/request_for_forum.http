@@ -1,0 +1,17 @@
+
+POST http://localhost:8082/forum/api/utilisateurs/1/questions
+Authorization: Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ5b2hhbi5ib2ljaHV0QHVuaXYtb3JsZWFucy5mciIsInNjb3BlIjoiRVRVRElBTlQgRU5TRUlHTkFOVCIsImlzcyI6InNlbGYiLCJpZFV0aWxpc2F0ZXVyIjoiMSIsImV4cCI6MTczMjkxNzU2OSwiaWF0IjoxNzMyODgxNTY5fQ.J8ye2jbt9n_mcv2a2zzwe8HP0QeSk8jLbcqsDejRlhU
+Content-Type: text/plain
+
+Quelle est la couleur du cheval blanc d'Henry IV ?
+
+
+
+###
+
+GET localhost:8082/forum/api/questions
+Authorization: Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ5b2hhbi5ib2ljaHV0QHVuaXYtb3JsZWFucy5mciIsInNjb3BlIjoiRVRVRElBTlQgRU5TRUlHTkFOVCIsImlzcyI6InNlbGYiLCJpZFV0aWxpc2F0ZXVyIjoiMSIsImV4cCI6MTczMjkxNzU2OSwiaWF0IjoxNzMyODgxNTY5fQ.J8ye2jbt9n_mcv2a2zzwe8HP0QeSk8jLbcqsDejRlhU
+Accept: application/json
+
+
+

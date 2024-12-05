@@ -1,0 +1,32 @@
+version: '3.8'
+
+services:
+
+
+  mysql_basetd6auth:
+    image: mysql:latest
+    ports:
+      - "3307:3306"
+    environment:
+      MYSQL_ROOT_PASSWORD: passwordtd6
+      MYSQL_USER: usertd6
+      MYSQL_PASSWORD: passwordtd6
+      MYSQL_DATABASE: basetd6auth
+    volumes:
+      - basetd6auth_data:/var/lib/mysql
+
+  mysql_basetd6forum:
+    image: mysql:latest
+    ports:
+      - "3308:3306"
+    environment:
+      MYSQL_ROOT_PASSWORD: passwordtd6
+      MYSQL_USER: usertd6
+      MYSQL_PASSWORD: passwordtd6
+      MYSQL_DATABASE: basetd6forum
+    volumes:
+      - basetd6_data:/var/lib/mysql
+
+volumes:
+  basetd6auth_data:
+  basetd6_data:
